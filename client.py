@@ -5,10 +5,10 @@ import sys
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 print('')
-print('Riona, host should be 10.0.0.105')
+print('Riona, host should be 68.148.17.19')
 print('')
 
-host = '10.0.0.105'
+host = '68.148.17.19'
 name = 'Ri'
 # host = input('Host IP = ')
 #name = input('Name = ')
