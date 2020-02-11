@@ -6,8 +6,8 @@ print('Riona, host might be 10.0.0.105')
 print('Port is automatically entered (yes it is 6969')
 
 
-host = input('Host = ')
-name = input('Name = ')
+host = str(input('Host = '))
+name = str(input('Name = '))
 port = 6969
 e = 'utf-8'
 s.connect((host,port))
