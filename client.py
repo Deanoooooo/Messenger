@@ -10,7 +10,7 @@ print('OR 10.0.0.105')
 
 host = '10.0.0.105'
 #host = input('Host IP = ')
-name = Riona
+name = "Riona"
 #name = input('Name = ')
 port = 6969
 e = 'utf-8'
