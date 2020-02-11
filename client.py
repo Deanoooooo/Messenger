@@ -8,10 +8,10 @@ print('Riona, the IP is either')
 print('68.148.17.19')
 print('OR 10.0.0.105')
 
-#host = '10.0.0.105'
-host = input('Host IP = ')
-#name = testman
-name = input('Name = ')
+host = '10.0.0.105'
+#host = input('Host IP = ')
+name = Riona
+#name = input('Name = ')
 port = 6969
 e = 'utf-8'
 s.connect((host,port))
