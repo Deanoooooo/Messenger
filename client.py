@@ -4,14 +4,14 @@ import sys
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
-print('')
-print('Riona, host should be 68.148.17.19')
-print('')
+print('Riona, the IP is either')
+print('68.148.17.19')
+print('OR 10.0.0.105')
 
-host = '68.148.17.19'
-name = 'Ri'
-# host = input('Host IP = ')
-#name = input('Name = ')
+#host = '10.0.0.105'
+host = input('Host IP = ')
+#name = testman
+name = input('Name = ')
 port = 6969
 e = 'utf-8'
 s.connect((host,port))
