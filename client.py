@@ -9,8 +9,9 @@ print('Riona, host should be 10.0.0.105')
 print('')
 
 host = '10.0.0.105'
+name = 'Ri'
 # host = input('Host IP = ')
-name = input('Name = ')
+#name = input('Name = ')
 port = 6969
 e = 'utf-8'
 s.connect((host,port))
